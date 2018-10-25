@@ -1,0 +1,52 @@
+$title:#e75b1e;
+$border:#f04900;
+$basic_bg:#E6E6E6;
+
+.banner_text .banner_cell h2{
+  color: $title;
+}
+
+.book_btn a{
+  background: $title;
+  border:3px solid $title;
+}
+
+.book-btn a:hover{
+  border: 3px solid $border;
+}
+
+#color-panel a.panel_button:hover{
+  color:$title;
+}
+
+.typer{
+  color:$title !important;
+}
+
+.idx_about_bg{
+  background: $basic_bg;
+}
+
+.idx_title{
+  color:$title;
+}
+
+.crs_item .crs_item_hover:hover::before{
+  background: rgba(231, 91, 30, 0.4);
+}
+
+.tab_title_menu:hover{
+  background: rgba(231, 91, 30, 0.4) !important;
+}
+
+.suggest_btn{
+  background-color: $title !important;
+}
+
+.idx_footer h3{
+  color:$title;
+}
+
+.footer_food a:hover{
+  color:$title;
+}

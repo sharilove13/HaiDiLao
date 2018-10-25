@@ -1,0 +1,12 @@
+.banner_text .banner_cell h2 {
+  color: #1E69B8; }
+
+.book_btn a {
+  background: #1E69B8;
+  border: 3px solid #1E69B8; }
+
+.book-btn a:hover {
+  border: 3px solid #66afff; }
+
+#color-panel a.panel_button:hover {
+  color: #1E69B8; }

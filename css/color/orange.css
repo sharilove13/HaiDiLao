@@ -1,0 +1,36 @@
+.banner_text .banner_cell h2 {
+  color: #e75b1e; }
+
+.book_btn a {
+  background: #e75b1e;
+  border: 3px solid #e75b1e; }
+
+.book-btn a:hover {
+  border: 3px solid #f04900; }
+
+#color-panel a.panel_button:hover {
+  color: #e75b1e; }
+
+.typer {
+  color: #e75b1e !important; }
+
+.idx_about_bg {
+  background: #E6E6E6; }
+
+.idx_title {
+  color: #e75b1e; }
+
+.crs_item .crs_item_hover:hover::before {
+  background: rgba(231, 91, 30, 0.4); }
+
+.tab_title_menu:hover {
+  background: rgba(231, 91, 30, 0.4) !important; }
+
+.suggest_btn {
+  background-color: #e75b1e !important; }
+
+.idx_footer h3 {
+  color: #e75b1e; }
+
+.footer_food a:hover {
+  color: #e75b1e; }

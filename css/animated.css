@@ -1,0 +1,39 @@
+
+/*下拉框的动画*/
+.banner_cell .mouse:after{
+    -webkit-animation-name: scrollWheel;
+    animation-name: scrollWheel;
+    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    will-change: transform;
+}
+@keyframes scrollWheel {
+    from {
+        -webkit-transform: translate3d(-50%, 10px, 0);
+        transform: translate3d(-50%, 10px, 0);
+        opacity: 1;
+    }
+    to {
+        -webkit-transform: translate3d(-50%, 30px, 0);
+        transform: translate3d(-50%, 30px, 0);
+        opacity: 0;
+    }
+    @media (min-width: 768px) {
+        from {
+            -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
+            opacity: 1;
+        }
+        to {
+            -webkit-transform: translate3d(-50%, 40px, 0);
+            transform: translate3d(-50%, 40px, 0);
+            opacity: 0;
+        }
+    }
+}
