@@ -68,13 +68,29 @@ h6 {font-size: 13px}
 }
 
 .login_box{
+    box-sizing: border-box;
     position:absolute;
     left:50%;
-    top:50%;
+    top:55%;
     transform: translateX(-50%) translateY(-60%);
-    border:1px solid #fff ;
-    padding:30px;
+    /* border:1px solid #fff ; */
+    padding:100px;
+    background-image:url(../img/booklogin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     /*box-shadow: 5px 5px 20px 5px #ececf6;*/
+}
+
+.hanging-hai{
+    position: absolute;
+    top:100px;
+    left:50px;
+    transition: all .5s linear;
+}
+
+.hanging-hai:hover{
+    transform: rotate3d(1,1,1,45deg)
 }
 
 .login_box .login_form{
@@ -82,7 +98,7 @@ h6 {font-size: 13px}
     height:400px;
 }
 .login_box .login_form form{
-    padding-top:50px;
+    padding-top:100px;
 }
 .form_check_ipt:after{
     content: "";
@@ -98,12 +114,12 @@ h6 {font-size: 13px}
 }
 
 .login_form a,.login_form span,.login_form label{
-    color: #cbcbcb;
+    color: #262A3A;
 }
 .login_title{
     font-size: 48px;
     font-family: "楷体";
-    color:#fff;
+    color:#262A3A;
     letter-spacing: 10px;
     text-shadow: 0 0 15px #ececf6;
     text-align: center;
@@ -118,11 +134,21 @@ h6 {font-size: 13px}
     height:40px;
     background: inherit;
     color:#fff;
+    font-family: "楷体";
+    font-size: 18px;
+    letter-spacing: 2px;
     outline: none;
+    border:none;
+    box-shadow:5px 5px 12px #262A3A,0 0 5px #262A3A inset;
+    text-align: center;    
+}
+
+.form_text_ipt input::-webkit-input-placeholder{
+    color:#262A3A;
 }
 
 .form_text_ipt input:focus{
-    box-shadow:0 0 15px #ececf6 ;
+    box-shadow:5px 5px 10px #262A3A inset;
 }
 
 .ececk_warning{
@@ -140,13 +166,14 @@ h6 {font-size: 13px}
 
 .form_btn button{
     width: 80%;
-    background: #fcfcfc;
+    background: inherit;
     height: 40px;
     font-size: 18px;
     font-weight: bold;
-    color:#333;
+    color:#262A3A;
     font-family: "华文宋体";
     letter-spacing: 10px;
+    border:none;
 }
 .form_reg_btn{
     text-align: right;
